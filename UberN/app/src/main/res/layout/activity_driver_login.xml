@@ -1,0 +1,84 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".DriverLoginActivity">
+
+    <ImageView
+        android:id="@+id/imgDriverLogo"
+        android:layout_width="match_parent"
+        android:layout_height="336dp"
+        android:src="@drawable/logo" />
+
+    <TextView
+        android:id="@+id/txtDriverStatus"
+        android:layout_width="wrap_content"
+        android:layout_below="@id/imgDriverLogo"
+        android:textSize="40dp"
+        android:layout_centerHorizontal="true"
+        android:textStyle="bold"
+        android:layout_height="wrap_content"
+        android:text="Driver Login" />
+
+    <EditText
+        android:id="@+id/edtDriverEmail"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:ems="10"
+        android:layout_below="@id/txtDriverStatus"
+        android:textSize="40dp"
+        android:inputType="text"
+        android:hint="Email..." />
+    <EditText
+        android:id="@+id/edtDriverPass"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:ems="10"
+        android:layout_below="@id/edtDriverEmail"
+        android:textSize="40dp"
+        android:inputType="textPassword"
+        android:hint="Password..." />
+
+    <Button
+        android:id="@+id/btnDriverLogin"
+        android:layout_width="300dp"
+        android:layout_height="70dp"
+        android:layout_below="@id/edtDriverPass"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="40dp"
+        android:textSize="30dp"
+        android:text="Login" />
+
+    <TextView
+        android:id="@+id/txtDriverRegisterLink"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/btnDriverLogin"
+        android:textSize="30dp"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="40dp"
+        android:textColor="#FF0000"
+        android:text="Don't Have An Account?" />
+    <TextView
+        android:id="@+id/txtDriverBackToLogin"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/btnDriverLogin"
+        android:textSize="30dp"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="40dp"
+        android:textColor="#FF0000"
+        android:text="Back to Login" />
+
+    <Button
+        android:id="@+id/btnDriverRegister"
+        android:layout_width="500dp"
+        android:layout_height="70dp"
+        android:textSize="30dp"
+        android:layout_marginTop="10dp"
+        android:layout_below="@id/edtDriverPass"
+        android:layout_centerHorizontal="true"
+        android:text="Register" />
+</RelativeLayout>

@@ -1,0 +1,41 @@
+<RelativeLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".CustomersMapActivity"
+    android:background="@color/design_default_color_primary_dark"
+    >
+
+    <fragment
+        android:id="@+id/mapCustomer"
+        android:name="com.google.android.gms.maps.SupportMapFragment"
+        android:layout_width="match_parent"
+        android:layout_height="800dp"
+        android:layout_below="@id/btnCustomerSetting"
+        android:layout_marginTop="-112dp" />
+
+    <Button
+        android:id="@+id/btnCustomerSetting"
+        android:layout_width="120dp"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="50dp"
+        android:text="Setting" />
+
+    <Button
+        android:id="@+id/btnCustomerLogout"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentRight="true"
+        android:layout_marginTop="50dp"
+        android:layout_marginLeft="160dp"
+        android:layout_toRightOf="@id/btnCustomerSetting"
+        android:text="Logout" />
+
+    <Button
+        android:id="@+id/btnCallCar"
+        android:layout_width="match_parent"
+        android:layout_height="60dp"
+        android:layout_marginTop="680dp"
+        android:text="Call A Car" />
+</RelativeLayout>

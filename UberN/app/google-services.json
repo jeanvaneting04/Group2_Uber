@@ -1,0 +1,30 @@
+{
+  "project_info": {
+    "project_number": "670128086547",
+    "firebase_url": "https://uber3-ab5c5-default-rtdb.asia-southeast1.firebasedatabase.app",
+    "project_id": "uber3-ab5c5",
+    "storage_bucket": "uber3-ab5c5.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:670128086547:android:481bdeab2ada24efbde9e6",
+        "android_client_info": {
+          "package_name": "com.example.ubern"
+        }
+      },
+      "oauth_client": [],
+      "api_key": [
+        {
+          "current_key": "AIzaSyDS5JX2O9LkjfAzlw8_PFT6U-2Jyxmb_VQ"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": []
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
